@@ -6,4 +6,10 @@ dado2 = input("Digite o segundo dado: ")
 resultado = dado1 + dado2
 
 print("Resultado da concatenação:", resultado)
-# Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?!
+
+# Entrada de dados
+texto = input("Digite um texto: ")
+repeticoes = int(input("Digite o número de repetições: "))
+
+# Repetição
+print(texto * repeticoes)
